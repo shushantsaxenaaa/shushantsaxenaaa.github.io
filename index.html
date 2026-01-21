@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter Offline</title>
+    <style>
+        :root {
+            --bg-color: #000000;
+            --text-color: #ffffff;
+            --accent-color: #F04653; /* Your app's red accent */
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+        }
+        .icon {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #1e1e1e, #2d2d2d); /* Placeholder for your icon */
+            border-radius: 24px;
+            margin-bottom: 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            box-shadow: 0 4px 20px rgba(240, 70, 83, 0.2);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #aaaaaa;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.2s;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .footer a {
+            color: #888;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Replace this div with an <img src="icon.png"> if you upload your icon -->
+        <div class="icon">💱</div>
+
+        <h1>Currency Converter</h1>
+        <p>The ultimate offline currency converter tool. Real-time exchange rates, crypto support, and a beautiful dark mode experience.</p>
+        
+        <!-- Link to your Play Store URL -->
+        <a href="https://play.google.com/store/apps/details?id=com.shushant.currencyconverter" class="btn">
+            Get it on Google Play
+        </a>
+
+        <div class="footer">
+            <p>
+                <a href="privacy-policy.html">Privacy Policy</a> | 
+                <a href="terms.html">Terms of Service</a>
+            </p>
+            <p>&copy; 2026 Currency Converter. All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+</html>
